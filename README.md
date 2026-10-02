@@ -1,4 +1,4 @@
-# Лабораторная работа — Вариант 8 «Кафе»
+# Лабораторная работа №2 — Вариант 8 «Кафе»
 
 **Дисциплина:** программирование
 **Вариант:** 8 — «Кафе»
@@ -15,7 +15,7 @@
 | [`src/task2_service_fee.cpp`](src/task2_service_fee.cpp) | задание 2 — сервисный сбор |
 | [`src/task3_menu.cpp`](src/task3_menu.cpp) | задание 3 — цена порции и скидка за объём |
 | [`src/task4_order.cpp`](src/task4_order.cpp) | задание 4 — заказ со скидками и доставкой |
-| [`lab1-variant8-cafe.sln`](lab1-variant8-cafe.sln) | решение Visual Studio |
+| [`lab2-variant8-cafe.sln`](lab2-variant8-cafe.sln) | решение Visual Studio |
 | [`.gitignore`](.gitignore) | исключения для git |
 | `scripts/` | вспомогательные скрипты сборки и прогонов |
 
@@ -353,7 +353,7 @@
 
 ## Git / GitHub
 
-Репозиторий: https://github.com/artyompetnitsky/lab1_variant8_cafe — публичный.
+Репозиторий: https://github.com/artyompetnitsky/lab2_variant8_cafe — публичный.
 
 В репозитории лежат исходный код всех четырёх заданий, корректный `.gitignore`, `README.md`
 и история из нескольких осмысленных коммитов. Первый коммит — рабочая версия заданий,
