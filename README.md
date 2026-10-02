@@ -11,22 +11,21 @@
 
 | Файл | Задание |
 |---|---|
-| [`src/task1_discount.cpp`](src/task1_discount.cpp) | задание 1 — скидка по стоимости заказа и для студента |
-| [`src/task2_service_fee.cpp`](src/task2_service_fee.cpp) | задание 2 — сервисный сбор |
-| [`src/task3_menu.cpp`](src/task3_menu.cpp) | задание 3 — цена порции и скидка за объём |
-| [`src/task4_order.cpp`](src/task4_order.cpp) | задание 4 — заказ со скидками и доставкой |
-| [`lab2-variant8-cafe.sln`](lab2-variant8-cafe.sln) | решение Visual Studio |
+| [`task1_discount.cpp`](task1_discount.cpp) | задание 1 — скидка по стоимости заказа и для студента |
+| [`task2_service_fee.cpp`](task2_service_fee.cpp) | задание 2 — сервисный сбор |
+| [`task3_menu.cpp`](task3_menu.cpp) | задание 3 — цена порции и скидка за объём |
+| [`task4_order.cpp`](task4_order.cpp) | задание 4 — заказ со скидками и доставкой |
 | [`.gitignore`](.gitignore) | исключения для git |
-| `scripts/` | вспомогательные скрипты сборки и прогонов |
+| [`README.md`](README.md) | этот отчёт |
 
 Все программы написаны на C++17, собираются компилятором MSVC без единого предупреждения
-(`/W4`). Папка `build/` с исполняемыми файлами и папка `.vscode/` в репозиторий не попадают.
+(`/W4`). Служебные папки `build/`, `.vs/` и `.vscode/` в репозиторий не попадают.
 
 ---
 
 ## Задание 1. Скидка на заказ
 
-Исходный код: [`src/task1_discount.cpp`](src/task1_discount.cpp)
+Исходный код: [`task1_discount.cpp`](task1_discount.cpp)
 
 **Входные данные**
 
@@ -94,7 +93,7 @@
 
 ## Задание 2. Сервисный сбор
 
-Исходный код: [`src/task2_service_fee.cpp`](src/task2_service_fee.cpp)
+Исходный код: [`task2_service_fee.cpp`](task2_service_fee.cpp)
 
 **Входные данные**
 
@@ -180,7 +179,7 @@
 
 ## Задание 3. Меню и скидка за объём
 
-Исходный код: [`src/task3_menu.cpp`](src/task3_menu.cpp)
+Исходный код: [`task3_menu.cpp`](task3_menu.cpp)
 
 **Входные данные**
 
@@ -246,7 +245,7 @@
 
 ## Задание 4. Заказ со скидками и доставкой
 
-Исходный код: [`src/task4_order.cpp`](src/task4_order.cpp)
+Исходный код: [`task4_order.cpp`](task4_order.cpp)
 
 **Входные данные**
 
