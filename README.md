@@ -352,7 +352,7 @@
 
 ## Git / GitHub
 
-Репозиторий: https://github.com/artyompetnitsky/lab2_variant8_cafe — публичный.
+Репозиторий: https://github.com/artyompetnitsky/lab2-variant8-cafe — публичный.
 
 В репозитории лежат исходный код всех четырёх заданий, корректный `.gitignore`, `README.md`
 и история из нескольких осмысленных коммитов. Первый коммит — рабочая версия заданий,
