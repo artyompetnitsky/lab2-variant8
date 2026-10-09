@@ -16,7 +16,7 @@ int main() {
 
     if (portions < 1 || portions > 20) {
         cout << "Ошибка: количество порций должно быть от 1 до 20." << endl;
-        return 1;
+        return 0;
     }
 
     double price = 0.0;
@@ -37,7 +37,7 @@ int main() {
             break;
         default:
             cout << "Ошибка: неизвестный код блюда." << endl;
-            return 1;
+            return 0;
     }
 
     double before = price * portions;
