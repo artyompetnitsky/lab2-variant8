@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     double cost;
-    int isStudent;
+    bool isStudent;
 
     cout << "Введите стоимость заказа: ";
     cin >> cost;
@@ -15,11 +15,6 @@ int main() {
 
     if (cost < 0) {
         cout << "Ошибка: стоимость заказа не может быть отрицательной." << endl;
-        return 1;
-    }
-
-    if (isStudent != 0 && isStudent != 1) {
-        cout << "Ошибка: признак студента должен быть 0 или 1." << endl;
         return 1;
     }
 
@@ -34,7 +29,7 @@ int main() {
     }
 
     // Студенческая скидка, если она больше
-    if (isStudent == 1 && 7.0 > discount) {
+    if (isStudent && 7.0 > discount) {
         discount = 7.0;
     }
 
